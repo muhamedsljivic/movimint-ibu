@@ -1,0 +1,76 @@
+.form {
+  font-size: 1.4rem;
+}
+
+.signup {
+  display: flex;
+  justify-content: flex-end;
+  margin: 2rem;
+  gap: 1rem;
+}
+
+.signup-link {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+  padding: 0rem 0.5rem;
+  background-color: #3d4958;
+  color: #fff;
+  &:hover,
+  &:active {
+    background-color: #7b7b8e;
+  }
+}
+
+.login {
+  padding: 0 8rem;
+  width: 60rem;
+  margin: 5rem auto;
+  h1 {
+    margin-bottom: 2rem;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.input {
+  label,
+  input {
+    display: block;
+  }
+  input {
+    width: 20rem;
+    padding: 0.7rem;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid grey;
+  }
+}
+
+.button {
+  margin-top: 1.6rem;
+  background-color: #323232;
+  color: #fff;
+  border: none;
+  padding: 0.8rem 2.6rem;
+  cursor: pointer;
+  &:hover,
+  &:active {
+    background-color: #525252;
+  }
+  @media only screen and (max-width: 750px) {
+    width: 20rem;
+  }
+}
